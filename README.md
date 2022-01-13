@@ -152,6 +152,3 @@ aws ssm delete-parameter --name kubeflow-vanilla-password --profile ba-ndaly-cli
 - [Kubeflow ALB creation issue](https://github.com/kubeflow/kubeflow/issues/3891)
 - [Kubeflow v1.2.0 AWS Manifest](https://github.com/kubeflow/manifests/blob/master/kfdef/kfctl_aws.v1.2.0.yaml)
 
-## Contributors
-- Ben Ahmed
-- Nial Daly
