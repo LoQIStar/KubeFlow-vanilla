@@ -1,0 +1,12 @@
+apiVersion: eksctl.io/v1alpha5
+kind: ClusterConfig
+
+metadata:
+  name: kubeflow-platform
+  region: eu-west-2
+  version: "1.17"
+
+nodeGroups:
+  - name: ng
+    desiredCapacity: 4
+    instanceType: t2.medium
